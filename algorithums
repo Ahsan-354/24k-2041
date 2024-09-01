@@ -1,0 +1,57 @@
+Problem: Implement an algorithm for determining if an Nth is a divisor of an n Number (i.e. 2 is a divisor of 6). If so, determine if it’s an even number or odd number as well. 
+
+SOLUTION 
+
+1. Ask user for a n number  
+
+2. Ask user for a Nth number 
+
+3. if n % N1 == 0  
+
+4. Then display “N1 is a divisor of n” 
+
+5. else display “N1 is not a divisor of n” 
+
+6. if N1 % 2 == 0 
+
+7. Then display “N1 is an even number” 
+
+8. else display “N1 is an odd number” 
+
+Problem: Implement an algorithm for making a simple calculator with all the operators (+,-,*,/,%) 
+
+SOLUTION 
+
+1. Ask user for a N1 number  
+
+2. Ask user for a N2 number 
+
+3. Ask user for a A variable 
+
+4. Set Result to garbage value 
+
+5. if A = +  
+
+6. Then Result = N1 + N2  
+
+7. Display “The result is” , Result 
+
+8. else if A = - 
+
+9. Then Result = N1 - N2  
+
+10. Display “The result is” , Result 
+
+11. else if A = * 
+
+12. Then Result = N1 * N2  
+
+13. Display “The result is” , Result 
+
+14. else if A = / 
+
+15. Then Result = N1 / N2  
+
+16. Display “The result is” , Result 
+
+17. else display “invalid operator” 
